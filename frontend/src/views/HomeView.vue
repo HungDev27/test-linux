@@ -46,7 +46,8 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const API_URL = 'http://localhost:8080/api/users'
+// const API_URL = 'http://localhost:8080/api/users'
+const API_URL = '/api/users'
 
 const users = ref([])
 const isEditing = ref(false)
